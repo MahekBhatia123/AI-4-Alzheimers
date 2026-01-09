@@ -16,7 +16,7 @@ app.add_middleware(
 )
 
 model = tf.keras.models.load_model(
-    "alzheimer_Model_final.h5"
+    "model/alzheimer_Model_final.h5"
 )
 
 classes = [

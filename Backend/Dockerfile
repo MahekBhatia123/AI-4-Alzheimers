@@ -1,21 +1,21 @@
-# Use Python 3.10 slim (stable for TF 2.15)
+# Base image
 FROM python:3.10-slim
 
-# Set working directory
+# Working directory
 WORKDIR /app
 
 # Copy requirements
 COPY requirements.txt .
 
-# Install dependencies
+# Upgrade pip & install dependencies
 RUN pip install --no-cache-dir --upgrade pip setuptools wheel
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy backend code
+# Copy backend code including model folder
 COPY . .
 
 # Expose port
 EXPOSE 8000
 
-# Command to run FastAPI
+# Run FastAPI
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

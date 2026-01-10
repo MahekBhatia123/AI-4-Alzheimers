@@ -1,3 +1,12 @@
+---
+title: AI-Based Alzheimer Detection API
+emoji: 🧠
+colorFrom: blue
+colorTo: purple
+sdk: docker
+app_port: 8000
+---
+
 # AI-Based Alzheimer Detection System (ML + Backend Module)
 
 This repository contains the **Machine Learning / Deep Learning part and Backend API integration** of the AI-Based Alzheimer Detection System. It focuses on dataset preparation, CNN model training, evaluation, model saving, and FastAPI backend development for predictions.

@@ -1,6 +1,5 @@
-FROM tensorflow/tensorflow:2.15.0
+FROM python:3.11-slim
 
-# Set working directory
 WORKDIR /app
 
 # Copy requirements first for caching
@@ -9,10 +8,9 @@ COPY requirements.txt .
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy all files including model
+# Copy the rest of the app files (but model will be downloaded at runtime)
 COPY . .
 
-# Expose port 8080
 EXPOSE 8080
 
 # Run FastAPI

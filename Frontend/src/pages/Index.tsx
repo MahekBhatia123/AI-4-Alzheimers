@@ -58,7 +58,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <HeroSection />
-      <UploadSection onAnalyze={handleAnalyze} />
+      {/* <UploadSection onAnalyze={handleAnalyze} /> */}
       {(isLoading || result) && (
         <ResultCard
           prediction={result}

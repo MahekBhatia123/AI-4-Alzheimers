@@ -33,7 +33,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="#upload"
+                  href="/login"
                   className="text-background/70 hover:text-background transition-colors"
                 >
                   Upload Scan

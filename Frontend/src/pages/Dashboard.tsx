@@ -159,7 +159,7 @@ const Dashboard = () => {
             </div>
 
             {/* API Connection Guide */}
-            <div className="bg-card rounded-2xl p-6 border border-border shadow-card md:col-span-2 lg:col-span-3">
+            {/* <div className="bg-card rounded-2xl p-6 border border-border shadow-card md:col-span-2 lg:col-span-3">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-xl gradient-primary w-fit">
                   <Server className="h-6 w-6 text-primary-foreground" />
@@ -209,7 +209,7 @@ const Dashboard = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Help Card */}
             <div className="bg-card rounded-2xl p-6 border border-border shadow-card md:col-span-2 lg:col-span-3">

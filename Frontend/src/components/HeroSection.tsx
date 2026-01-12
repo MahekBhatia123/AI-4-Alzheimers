@@ -31,13 +31,13 @@ const HeroSection = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button
+              {/* <Button
                 size="lg"
                 className="gradient-primary hover:opacity-90 transition-all hover:scale-105 group"
               >
                 Upload MRI Scan
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
+              </Button> */}
               <Button
                 size="lg"
                 variant="outline"

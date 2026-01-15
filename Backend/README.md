@@ -7,7 +7,7 @@ sdk: docker
 app_port: 8000
 ---
 
-# AI-Based Alzheimer Detection System (ML + Backend Module)
+# AI-Based Alzheimer Detection System (ML + Backend Module) url -> https://hirdeshds-ai-4-alzheimers.hf.space/
 
 This repository contains the **Machine Learning / Deep Learning part and Backend API integration** of the AI-Based Alzheimer Detection System. It focuses on dataset preparation, CNN model training, evaluation, model saving, and FastAPI backend development for predictions.
 

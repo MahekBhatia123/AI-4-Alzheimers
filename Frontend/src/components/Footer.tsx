@@ -1,4 +1,4 @@
-import { Brain, Mail, Phone, MapPin } from "lucide-react";
+import { Brain, Mail, Phone, MapPin, Users } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -19,42 +19,16 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
+          {/* Team */}
           <div>
-            <h4 className="font-bold mb-4">Quick Links</h4>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="#home"
-                  className="text-background/70 hover:text-background transition-colors"
-                >
-                  Home
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/login"
-                  className="text-background/70 hover:text-background transition-colors"
-                >
-                  Upload Scan
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#about"
-                  className="text-background/70 hover:text-background transition-colors"
-                >
-                  About
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-background/70 hover:text-background transition-colors"
-                >
-                  Privacy Policy
-                </a>
-              </li>
+            <h4 className="font-bold mb-4 flex items-center gap-2">
+              <Users className="h-4 w-4" />
+              Team: NeuroAI
+            </h4>
+            <ul className="space-y-2 text-background/70">
+              <li>Mahek Bhatia</li>
+              <li>Hirdesh</li>
+              <li>Dhruv Srivastava</li>
             </ul>
           </div>
 
@@ -82,7 +56,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-background/10">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-background/50">
-              © 2024 AI for Alzheimer's. All rights reserved.
+              © 2024 AI for Alzheimer's. Built by Team NeuroAI.
             </p>
             <p className="text-xs text-background/40 max-w-md text-center md:text-right">
               Disclaimer: This tool is for educational purposes only and should not
